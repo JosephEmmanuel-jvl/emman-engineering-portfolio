@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 800" role="img" aria-labelledby="title desc">
+<title id="title">VERDE hardware architecture</title><desc id="desc">Water quality sensors pass through an ADC to a Raspberry Pi 5. Temperature, humidity and camera inputs connect directly. Relay module 3 switches the EC sensor supply. Relay modules 1 and 2 control circulation and dosing pumps. The Pi communicates with GSM alerts, the dashboard and detection log.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#92cfa5"/></marker></defs>
+<rect width="1120" height="800" rx="16" fill="#0c1b15"/>
+<style>text{font-family:Arial,sans-serif;fill:#e7f8ea}.label{font-family:Consolas,monospace;font-size:12px;letter-spacing:1.5px;fill:#a2f5b5}.sub{font-size:13px;fill:#a8c3af}.wire{fill:none;stroke:#92cfa5;stroke-width:2;marker-end:url(#arrow)}.supply{stroke:#e6d296;stroke-dasharray:6 5}</style>
+<text x="36" y="41" class="label">VERDE / HARDWARE ARCHITECTURE</text><text x="36" y="66" class="sub">Simplified from thesis Figure B.1 and component labels in Figure C.1</text>
+<path d="M36 88H1084" stroke="#294139"/>
+<text x="36" y="119" class="label">01 / ACQUISITION</text><text x="450" y="119" class="label">02 / PROCESSING</text><text x="746" y="119" class="label">03 / OUTPUTS</text>
+<rect x="36" y="153" width="210" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="52" y="180" font-size="17" font-weight="bold">EC + turbidity</text>
+<text x="52" y="202" class="sub">Analog sensor outputs</text>
+<rect x="36" y="250" width="210" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="52" y="277" font-size="17" font-weight="bold">Voltage dividers</text>
+<text x="52" y="299" class="sub">Scale EC + turbidity signals</text>
+<rect x="36" y="347" width="210" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="52" y="374" font-size="17" font-weight="bold">pH sensor</text>
+<text x="52" y="396" class="sub">Analog sensor output</text>
+<rect x="283" y="250" width="130" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="299" y="277" font-size="17" font-weight="bold">ADS1115</text>
+<text x="299" y="299" class="sub">ADC</text>
+<path d="M141 218V250" class="wire "/>
+<path d="M246 282H283" class="wire "/>
+<path d="M246 379H263V299H283" class="wire "/>
+<rect x="36" y="457" width="377" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="52" y="484" font-size="17" font-weight="bold">Water temperature + humidity</text>
+<text x="52" y="506" class="sub">DS18B20 and DHT11 modules</text>
+<rect x="36" y="554" width="377" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="52" y="581" font-size="17" font-weight="bold">Camera Module 3</text>
+<text x="52" y="603" class="sub">Plant images</text>
+<rect x="450" y="250" width="240" height="369" rx="5" fill="#234a32" stroke="#a2f5b5"/>
+<text x="466" y="277" font-size="17" font-weight="bold">Raspberry Pi 5</text>
+<text x="466" y="299" class="sub">Central processing and control</text>
+<text x="470" y="367" class="label">SENSOR READINGS</text><text x="470" y="401" class="label">IMAGE PROCESSING</text><text x="470" y="435" class="label">CONTROL LOGIC</text><text x="470" y="469" class="label">DATA + INTERFACE</text>
+<path d="M413 282H450" class="wire "/>
+<path d="M413 489H450" class="wire "/>
+<path d="M413 586H450" class="wire "/>
+<rect x="450" y="153" width="240" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="466" y="180" font-size="17" font-weight="bold">Relay module 3</text>
+<text x="466" y="202" class="sub">Switches EC sensor supply</text>
+<path d="M570 250V218" class="wire "/>
+<path d="M450 185H246" class="wire supply"/>
+<rect x="746" y="153" width="338" height="72" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="762" y="180" font-size="17" font-weight="bold">Relay module 1</text>
+<text x="762" y="202" class="sub">Circulation + pH Down pumps</text>
+<rect x="746" y="250" width="338" height="72" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="762" y="277" font-size="17" font-weight="bold">Relay module 2</text>
+<text x="762" y="299" class="sub">Nutrient + pH Up pumps</text>
+<rect x="746" y="347" width="338" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="762" y="374" font-size="17" font-weight="bold">GSM module</text>
+<text x="762" y="396" class="sub">Alert notifications</text>
+<rect x="746" y="457" width="338" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="762" y="484" font-size="17" font-weight="bold">Web dashboard</text>
+<text x="762" y="506" class="sub">Monitoring and user input</text>
+<rect x="746" y="554" width="338" height="65" rx="5" fill="#14271d" stroke="#42634d"/>
+<text x="762" y="581" font-size="17" font-weight="bold">Detection log</text>
+<text x="762" y="603" class="sub">Data storage and retrieval</text>
+<path d="M690 282H716V189H746" class="wire "/>
+<path d="M690 302H730V286H746" class="wire "/>
+<path d="M690 379H746" class="wire "/>
+<path d="M690 489H746M690 586H746" class="wire" marker-start="url(#arrow)"/>
+<path d="M36 662H1084" stroke="#294139"/>
+<path d="M36 697H80" class="wire"/><text x="96" y="702" class="sub">Signal / data / control</text>
+<path d="M360 697H404" class="wire supply"/><text x="420" y="702" class="sub">Switched EC supply</text>
+<text x="36" y="751" class="sub">System overview. Use the full schematic for pin connections and power distribution.</text></svg>
