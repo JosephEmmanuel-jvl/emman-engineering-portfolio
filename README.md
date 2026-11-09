@@ -1,4 +1,4 @@
-# Emman — Computer Engineering Portfolio
+# Joseph Emmanuel | Computer Engineering Portfolio
 
 A static portfolio for my computer engineering projects. It covers VERDE, Campus Lost and Found, the earlier VERDE YOLOv8 experiment, and Ethically Me.
 
