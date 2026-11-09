@@ -15,3 +15,9 @@ python -m http.server 4173
 ```
 
 Open `http://127.0.0.1:4173/`. The site uses HTML, CSS, and JavaScript without a build step.
+
+## Later, after the content is final
+
+- Add a general résumé PDF and public contact links when they are ready.
+- Use verified project screenshots or demos where they help explain the work.
+- Add restrained motion to the system diagram and project visuals, with a reduced-motion option.
