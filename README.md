@@ -1,6 +1,6 @@
-# Joseph Emmanuel | Computer Engineering Portfolio
+# Joseph Emmanuel V. Landeza | Computer Engineering Portfolio
 
-Live portfolio: https://josephemmanuel-jvl.github.io/
+Live portfolio: https://josephemmanuel-portfolio.vercel.app/
 
 A static portfolio for my computer engineering projects. It covers VERDE, Campus Lost and Found, the earlier VERDE YOLOv8 experiment, and Ethically Me.
 
@@ -18,6 +18,6 @@ Open `http://127.0.0.1:4173/`. The site uses HTML, CSS, and JavaScript without a
 
 ## Later, after the content is final
 
-- Add a general résumé PDF and public contact links when they are ready.
+- Add a general résumé PDF when it is ready.
 - Use verified project screenshots or demos where they help explain the work.
 - Add restrained motion to the system diagram and project visuals, with a reduced-motion option.
