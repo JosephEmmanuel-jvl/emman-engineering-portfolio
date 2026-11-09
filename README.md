@@ -1,5 +1,7 @@
 # Joseph Emmanuel | Computer Engineering Portfolio
 
+Live portfolio: https://josephemmanuel-jvl.github.io/
+
 A static portfolio for my computer engineering projects. It covers VERDE, Campus Lost and Found, the earlier VERDE YOLOv8 experiment, and Ethically Me.
 
 The VERDE thesis section is marked as work in progress. I will add the previous embedded prototype, research details, and verified results after reviewing them.
