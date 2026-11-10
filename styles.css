@@ -29,3 +29,6 @@
 .thesis-results span{display:block;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
 .thesis-results p{font-size:13px;line-height:1.6;color:#c8dacd;margin:0}
 .thesis-results strong{color:var(--text)}
+
+.award-highlight{display:grid;grid-template-columns:220px minmax(0,1fr);gap:19px;align-items:center;border:1px solid var(--line);background:var(--panel);padding:13px;margin:37px 0 0;max-width:635px}.award-highlight>a{display:block;line-height:0}.award-highlight img{width:100%;height:auto;display:block}.award-highlight figcaption span{display:block;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:10px}.award-highlight figcaption strong{display:block;font-size:16px;line-height:1.35}.award-highlight figcaption p{font-size:13px;line-height:1.55;margin:8px 0 0;color:var(--muted)}
+@media(max-width:680px){.award-highlight{grid-template-columns:1fr;gap:16px;padding:12px;margin-top:30px}.award-highlight figcaption{padding:0 3px 4px}}
