@@ -48,7 +48,7 @@
           <div class="hero-meta"><span><b>FOCUS</b> Applied engineering</span><span><b>NOW</b> VERDE thesis</span><span><b>NEXT</b> Internship</span></div>
         </div>
         <div class="hero-visual" role="img" aria-label="Conceptual diagram showing sensor and camera inputs feeding processing, decisions, and a dashboard">
-          <div class="visual-head"><span>VERDE / SYSTEM VIEW</span><span class="live-label"><i></i> RESEARCH IN PROGRESS</span></div>
+          <div class="visual-head"><span>VERDE / SYSTEM VIEW</span><span class="live-label"><i></i> DEFENSE PASSED</span></div>
           <div class="visual-grid">
             <div class="node node-input node-sensors"><span class="node-code">01 / INPUT</span><strong>Sensors</strong><small>pH · EC · temperature</small></div>
             <div class="node node-input node-camera"><span class="node-code">02 / INPUT</span><strong>Camera</strong><small>plant images</small></div>
@@ -57,7 +57,7 @@
             <div class="connector connector-c" aria-hidden="true"></div>
             <div class="node node-output"><span class="node-code">04 / OUTPUT</span><strong>Decisions + dashboard</strong><small>monitoring · alerts · control</small></div>
           </div>
-          <div class="visual-foot"><span>CONCEPTUAL PROJECT ARCHITECTURE</span><span>NO PERFORMANCE CLAIMS</span></div>
+          <div class="visual-foot"><span>CONCEPTUAL PROJECT ARCHITECTURE</span><span>THESIS RESULTS BELOW</span></div>
         </div>
         <div class="hero-index" aria-hidden="true">01<span>/</span>04</div>
       </section>
@@ -67,12 +67,13 @@
 
         <article class="project-card project-featured">
           <div class="feature-copy">
-            <div class="project-topline"><span class="status status-progress">THESIS · IN PROGRESS</span><span class="project-number">01 / 04</span></div>
+            <div class="project-topline"><span class="status status-progress">THESIS · DEFENSE PASSED</span><span class="project-number">01 / 04</span></div>
             <h3>VERDE</h3>
             <p class="project-subtitle">Smart hydroponics monitoring and control</p>
-            <p>VERDE is our in-progress smart hydroponics thesis. It brings sensor monitoring, plant image analysis, and rule-based decisions together on a Raspberry Pi 5.</p>
-            <p class="project-note">The diagram follows our thesis design. The public three-class model is an earlier, separate experiment.</p>
-            <div class="project-quickfacts" aria-label="VERDE system scope"><span><b>INPUTS</b>pH, EC, temperature, humidity, turbidity, and camera</span><span><b>VISION</b>Healthy, Yellowing, Wilting, and Harvest-Ready</span><span><b>OUTPUTS</b>Dashboard, data logs, alerts, and dosing</span></div>
+            <p>VERDE is our smart hydroponics thesis prototype. It combines sensor monitoring, plant image analysis, and rule-based decisions on a Raspberry Pi 5. Our thesis passed the final panel defense, and development continues.</p>
+            <p class="project-note">The thesis condition detector covers Healthy, Yellowing, and Wilting. Harvest-Ready uses a separate classifier; the public three-class repository is an earlier experiment.</p>
+            <div class="thesis-results" aria-label="VERDE thesis condition detector test results"><span>THESIS TEST · 200 IMAGES</span><p><strong>96.67% mAP@0.5</strong> for the three-class detector. Its highest-confidence condition matched the annotation in <strong>198 of 200 images</strong>. These are separate detection and image-level measures from the thesis test split; external testing remains future work.</p></div>
+            <div class="project-quickfacts" aria-label="VERDE system scope"><span><b>INPUTS</b>pH, EC, temperature, humidity, turbidity, and camera</span><span><b>VISION</b>Healthy, Yellowing, Wilting; separate Harvest-Ready classifier</span><span><b>OUTPUTS</b>Dashboard, data logs, alerts, and dosing</span></div>
             <div class="tag-row"><span>Raspberry Pi 5</span><span>Python</span><span>YOLOv8</span><span>IoT</span><span>Sensors</span></div>
           </div>
           <div class="feature-art architecture-preview">

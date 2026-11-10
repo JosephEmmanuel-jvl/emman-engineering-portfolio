@@ -4,7 +4,7 @@ Live portfolio: https://josephemmanuel-portfolio.vercel.app/
 
 A static portfolio for my computer engineering projects. It covers VERDE, Campus Lost and Found, the earlier VERDE YOLOv8 experiment, and Ethically Me.
 
-The VERDE thesis section is marked as work in progress. I will add the previous embedded prototype, research details, and verified results after reviewing them.
+The VERDE thesis section says the final panel defense passed and shows the three-class condition detector's results from the thesis test split. It distinguishes that detector from the separate Harvest-Ready classifier and the earlier public YOLOv8 experiment.
 
 ## Run locally
 

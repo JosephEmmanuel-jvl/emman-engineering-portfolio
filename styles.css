@@ -24,3 +24,8 @@
 .contact-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;min-width:330px;max-width:420px;width:100%}.contact-links .button{min-height:48px;gap:10px;padding:0 16px;white-space:nowrap}.contact-links .button-primary{grid-column:1 / -1}.button-secondary{border:1px solid #6c9b76;background:rgba(12,28,20,.44);color:var(--text)}.button-secondary:hover{background:rgba(162,245,181,.13)}@media(max-width:680px){.contact-links{min-width:0;max-width:none;margin-top:27px}.contact-links .button{margin-top:0}}
 
 .hero-name{flex-wrap:wrap}.compact-body .project-security{border-top:1px solid var(--line);padding-top:12px;margin:2px 0 4px;font-size:12px;line-height:1.55;color:#b9d0be}.project-security strong{display:block;margin-bottom:4px;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent)}.campus-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.campus-actions a{line-height:1.4}
+
+.thesis-results{border:1px solid #3d6550;background:rgba(162,245,181,.045);padding:15px 17px;margin:0 0 22px}
+.thesis-results span{display:block;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
+.thesis-results p{font-size:13px;line-height:1.6;color:#c8dacd;margin:0}
+.thesis-results strong{color:var(--text)}
