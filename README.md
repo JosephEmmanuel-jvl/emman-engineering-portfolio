@@ -6,7 +6,7 @@ A static portfolio for my computer engineering projects. It covers VERDE, Campus
 
 The Campus Lost and Found section includes screenshots captured from the live Student demo account and a short account of my later backend contributions. The item records shown are sample data; no demo credentials are stored in this repository.
 
-The VERDE thesis section says the final panel defense passed and distinguishes the four-state thesis system from the earlier public three-class YOLOv8s experiment. The public experiment card reports the same 0.962 mAP50 and 0.713 mAP50-95 figures as its repository README, with the caveat that the existing 200-image split is not yet proven independent by plant or source.
+The VERDE thesis section says the final panel defense passed and the team is addressing panel recommendations. It lists Healthy, Yellowing, Wilting, and Harvest-Ready for the thesis system and distinguishes the earlier public three-class YOLOv8s experiment. The thesis card does not report a four-state metric. The public experiment card reports the same 0.962 mAP50 and 0.713 mAP50-95 figures as its repository README, with the caveat that the existing 200-image split is not yet proven independent by plant or source.
 
 ## Run locally
 
