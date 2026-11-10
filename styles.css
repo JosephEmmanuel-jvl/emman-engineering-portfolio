@@ -25,10 +25,8 @@
 
 .hero-name{flex-wrap:wrap}.compact-body .project-security{border-top:1px solid var(--line);padding-top:12px;margin:2px 0 4px;font-size:12px;line-height:1.55;color:#b9d0be}.project-security strong{display:block;margin-bottom:4px;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent)}.campus-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.campus-actions a{line-height:1.4}
 
-.thesis-results{border:1px solid #3d6550;background:rgba(162,245,181,.045);padding:15px 17px;margin:0 0 22px}
-.thesis-results span{display:block;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
-.thesis-results p{font-size:13px;line-height:1.6;color:#c8dacd;margin:0}
-.thesis-results strong{color:var(--text)}
+.compact-body .project-evidence{border-top:1px solid var(--line);padding-top:12px;margin:2px 0 18px;font-size:12px;line-height:1.55;color:#b9d0be}
+.project-evidence strong{display:block;margin-bottom:4px;font:700 10px var(--mono);letter-spacing:.1em;color:var(--accent)}
 
 .awards-section{border-top:1px solid var(--line-soft);padding-top:90px;padding-bottom:95px}
 .awards-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:stretch}
@@ -58,5 +56,10 @@
 .campus-preview-grid img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:top left;transition:transform .2s ease}
 .campus-preview-grid a:hover img{transform:scale(1.025)}
 .campus-preview-grid figcaption{padding:13px 15px;color:var(--accent);font:700 10px var(--mono);letter-spacing:.07em;text-transform:uppercase}
+.campus-case-study{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}
+.campus-case-study>div{border:1px solid var(--line);background:var(--panel);padding:19px 20px}
+.campus-case-study span{display:block;font:700 10px var(--mono);letter-spacing:.08em;color:var(--accent);margin-bottom:10px}
+.campus-case-study p{font-size:13px;line-height:1.65;color:var(--muted);margin:0}
 @media(max-width:800px){.campus-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){.campus-case-study{grid-template-columns:1fr}}
 @media(max-width:560px){.campus-preview-heading{display:block}.campus-preview-heading>p{margin-top:12px}.campus-preview-grid{grid-template-columns:1fr}}

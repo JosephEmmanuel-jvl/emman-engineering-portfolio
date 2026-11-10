@@ -4,9 +4,9 @@ Live portfolio: https://josephemmanuel-portfolio.vercel.app/
 
 A static portfolio for my computer engineering projects. It covers VERDE, Campus Lost and Found, the earlier VERDE YOLOv8 experiment, and Ethically Me.
 
-The Campus Lost and Found section includes screenshots captured from the live Student demo account. The item records shown are sample data; no demo credentials are stored in this repository.
+The Campus Lost and Found section includes screenshots captured from the live Student demo account and a short account of my later backend contributions. The item records shown are sample data; no demo credentials are stored in this repository.
 
-The VERDE thesis section says the final panel defense passed and shows the three-class condition detector's results from the thesis test split. It distinguishes that detector from the separate Harvest-Ready classifier and the earlier public YOLOv8 experiment.
+The VERDE thesis section says the final panel defense passed and distinguishes the four-state thesis system from the earlier public three-class YOLOv8s experiment. The public experiment card reports the same 0.962 mAP50 and 0.713 mAP50-95 figures as its repository README, with the caveat that the existing 200-image split is not yet proven independent by plant or source.
 
 ## Run locally
 
